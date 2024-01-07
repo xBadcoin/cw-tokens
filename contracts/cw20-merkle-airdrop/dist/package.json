@@ -1,0 +1,25 @@
+{
+  "name": "cw20-merkle-airdrop",
+  "collaborators": [
+    "Orkun Kulce <orkunkl@users.noreply.github.com>",
+    "Terraform Labs, PTE."
+  ],
+  "description": "An Airdrop contract for allowing users to claim rewards with Merkle Tree based proof",
+  "version": "0.14.2",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CosmWasm/cw-tokens"
+  },
+  "files": [
+    "cw20_merkle_airdrop_bg.wasm",
+    "cw20_merkle_airdrop.js",
+    "cw20_merkle_airdrop.d.ts"
+  ],
+  "module": "cw20_merkle_airdrop.js",
+  "homepage": "https://cosmwasm.com",
+  "types": "cw20_merkle_airdrop.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
